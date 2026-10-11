@@ -1,4 +1,4 @@
-# PRD: Anime Explorer
+﻿# PRD: Anime Explorer
 
 ## 1. One-sentence pitch
 Anime Explorer lets people browse anime titles from a public API and see details for the title they select.

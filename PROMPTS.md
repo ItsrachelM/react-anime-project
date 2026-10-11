@@ -1,4 +1,4 @@
-# PROMPTS
+﻿# PROMPTS
 
 ## Task 1 — Fetch anime list from a public API
 

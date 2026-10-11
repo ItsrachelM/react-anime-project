@@ -1,4 +1,4 @@
-# Agent Instructions
+﻿# Agent Instructions
 
 ## Role
 Act as a focused development agent for this anime app. Complete the user’s requested task and preserve existing behavior outside its scope.

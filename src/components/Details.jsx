@@ -1,4 +1,4 @@
-export default function Details({ selectedAnime, isLoading, error }) {
+﻿export default function Details({ selectedAnime, isLoading, error }) {
   return (
     <section className="details-panel" aria-labelledby="details-heading" aria-live="polite">
       <h2 id="details-heading">Details</h2>
@@ -29,4 +29,3 @@ export default function Details({ selectedAnime, isLoading, error }) {
     </section>
   )
 }
-//שינוי
