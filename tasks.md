@@ -66,5 +66,15 @@ Styled list buttons
 
 Responsive layout
 
+Additional features:
+
+Search anime titles with a Search button and a clear action.
+
+Show the number of matching titles and an empty state when there are no matches.
+
+Allow sorting titles alphabetically or returning to the original order.
+
+Add a “Surprise me” button to select a random anime from the current results.
+
 Done when:  
-The app looks visually polished and similar to the example UI.
+The app looks visually polished and similar to the example UI, with working search, sorting, result count, empty state, and random anime selection.

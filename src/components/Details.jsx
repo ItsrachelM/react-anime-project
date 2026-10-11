@@ -1,12 +1,14 @@
-function Details({ anime, isLoading }) {
+function Details({ anime, isLoading, error }) {
   return (
-    <section className="details-panel" aria-label="Anime details">
-      <h2>Details</h2>
+    <section className="details-panel" aria-labelledby="details-heading" aria-live="polite">
+      <h2 id="details-heading">Details</h2>
       {isLoading ? (
         <div className="loading-indicator" role="status">
           <span className="loading-spinner" aria-hidden="true" />
           Loading details…
         </div>
+      ) : error ? (
+        <p className="error-message" role="alert">{error}</p>
       ) : anime ? (
         <article className="anime-details">
           <h3>{anime.title}</h3>
